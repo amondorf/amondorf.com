@@ -375,7 +375,7 @@ padding: 0.5em;
   }
 
   .welcome-text {
-      top: 0.5em;
+      top: 0;
       left: 0.5em;
       padding: 1em;
   }
@@ -385,7 +385,16 @@ padding: 0.5em;
   }
 
   .about-mobile {
-    padding-top: 2em;
+    padding-top: 1em;
+  }
+
+  .about {
+    margin: 0;
+    padding: 1em;
+  }
+
+  .good-mobile {
+    display: flex;
   }
 
   .portfolio {
