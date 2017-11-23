@@ -98,7 +98,7 @@ a.underlined-thin:hover {border-bottom: 1px solid #d0a233; padding-bottom:1px; c
     line-height: 1.8em;
     font-weight: 100;
     /*color: #5f6771;*/
-    font-family: 'Merriweather', serif;
+    /*font-family: 'Merriweather', serif;*/
 }
 
 .interested {
@@ -210,6 +210,10 @@ padding: 0.5em;
 }
 
 /*https://codepen.io/PetrusR3x/pen/PPePoG*/
+.contact-mobile {
+  display: none;
+}
+
 .business-card {
   background-color: white;
   position: relative;
@@ -358,3 +362,89 @@ padding: 0.5em;
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<zoom out on hover>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .grow { transition: all 1s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
+
+
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (max-width: 480px) {
+  col-md-12 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .shadow {
+    padding: 0;
+  }
+
+  .portfolio {
+    margin: -4em 0 1em 1em;
+  }
+
+  .github-card {
+    position: relative;
+    margin: 0 auto;
+    top: auto;
+    right: auto;
+    margin-left: -2em;
+  }
+
+  .mevulo-card {
+    position: relative;
+    margin: 0 auto;
+    top: auto;
+    right: auto;
+    margin-left: -2em;
+  }
+  .contact-desktop {
+    display: none;
+  }
+
+  .contact-mobile {
+    display: inline-block;
+  }
+
+  .business-card-mobile {
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    /*top: -26em;*/
+    /*top: 3.5em;
+    left: 5.5em;*/
+    width: 100%;
+    height: 20em;
+    text-align: left;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    line-height: 1.8em;
+    color: #d0a233;
+    font-family: 'Merriweather', serif;
+  }
+
+  .business-card-img-mobile {
+    width: 8em;
+    height: 100%;
+    object-fit: cover;
+    float: left;
+  }
+
+  .name {
+    padding-left: 0.5em;
+  }
+
+  .img-about-container-mobile {
+    margin: 2em 0 2em 0;
+    height: 10em;
+    width: auto;
+  }
+
+  .grey-background {
+    margin: 2em 0 30em 0;
+  }
+
+  .footer {
+    margin: 0 auto;
+    padding-bottom: 1em;
+  }
+}
