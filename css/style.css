@@ -62,7 +62,7 @@ a.underlined-thin:hover {border-bottom: 1px solid #d0a233; padding-bottom:1px; c
 
 /*<!-- welcome message -->*/
 .img-coffee-container {
-  margin-top: 14em;
+  margin-top: 12em;
   margin-bottom: 2em;
   height: 30em;
   width: auto;
@@ -292,11 +292,8 @@ padding: 0.5em;
   background-color: white;
   position: absolute;
   /*margin: 0 auto;*/
-  top: 9em;
-  right: 3em;
-  /*top: -26em;*/
-  /*top: 3.5em;
-  left: 5.5em;*/
+  top: -11em;
+  right: 5em;
   width: 20em;
   height: auto;
   text-align: center;
@@ -342,11 +339,8 @@ padding: 0.5em;
   background-color: white;
   position: absolute;
   /*margin: 0 auto;*/
-  top: 3em;
-  right: 29em;
-  /*top: -26em;*/
-  /*top: 3.5em;
-  left: 5.5em;*/
+  top: -11em;
+  right: 32em;
   width: 20em;
   height: auto;
   text-align: center;
@@ -461,6 +455,6 @@ padding: 0.5em;
 
   .footer {
     margin: 0 auto;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
   }
 }
