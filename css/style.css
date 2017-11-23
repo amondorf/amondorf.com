@@ -363,7 +363,9 @@ padding: 0.5em;
 .grow { transition: all 1s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 
-
+.good-mobile {
+  display: none;
+}
 
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -376,6 +378,20 @@ padding: 0.5em;
 
   .shadow {
     padding: 0;
+  }
+
+  .welcome-text {
+      top: 0.5em;
+      left: 0.5em;
+      padding: 1em;
+  }
+
+  .br-mobile {
+    display: none;
+  }
+
+  .about-mobile {
+    padding-top: 2em;
   }
 
   .portfolio {
