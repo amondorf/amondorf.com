@@ -359,6 +359,9 @@ padding: 0.5em;
 .good-mobile {
   display: none;
 }
+.img-background-mobile {
+  display: none;
+}
 
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -371,6 +374,14 @@ padding: 0.5em;
 
   .shadow {
     padding: 0;
+  }
+
+  .img-background {
+    display: none;
+  }
+
+  .img-background-mobile {
+    display: grid;
   }
 
   .welcome-text {
@@ -449,6 +460,10 @@ padding: 0.5em;
     height: 100%;
     object-fit: cover;
     float: left;
+  }
+
+  .business-card-text {
+    padding: auto;
   }
 
   .name {
