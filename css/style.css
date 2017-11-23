@@ -424,6 +424,10 @@ padding: 0.5em;
     display: inline-block;
   }
 
+  .contact {
+    margin-bottom: 5em;
+  }
+
   .business-card-mobile {
     background-color: white;
     position: relative;
@@ -465,5 +469,8 @@ padding: 0.5em;
   .footer {
     margin: 0 auto;
     padding-bottom: 2em;
+    position: relative;
+    line-height: 1em;
+    left: 15%;
   }
 }
