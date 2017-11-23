@@ -282,9 +282,8 @@ padding: 0.5em;
   color: white;
   line-height: 1.9em;
   text-align: center;
-  position: absolute;
+  position: relative;
   height: 3em;
-  left: 40%;
 }
 
 /*mevulo card*/
@@ -404,17 +403,17 @@ padding: 0.5em;
   .github-card {
     position: relative;
     margin: 0 auto;
+    width: 100%;
     top: auto;
     right: auto;
-    margin-left: -2em;
   }
 
   .mevulo-card {
     position: relative;
     margin: 0 auto;
+    width: 100%;
     top: auto;
     right: auto;
-    margin-left: -2em;
   }
   .contact-desktop {
     display: none;
@@ -454,6 +453,15 @@ padding: 0.5em;
 
   .name {
     padding-left: 0.5em;
+    font-size: 1em;
+  }
+
+  .title {
+    font-size: 0.6em;
+  }
+
+  .email {
+    font-size: 0.8em;
   }
 
   .img-about-container-mobile {
@@ -464,13 +472,12 @@ padding: 0.5em;
 
   .grey-background {
     margin: 2em 0 30em 0;
+    padding: 10em 0 10em 0;
+
   }
 
   .footer {
     margin: 0 auto;
-    padding-bottom: 2em;
-    position: relative;
-    line-height: 1em;
-    left: 15%;
+    padding-bottom: 1em;
   }
 }
