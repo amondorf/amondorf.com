@@ -65,12 +65,13 @@ a.underlined-thin:hover {border-bottom: 1px solid #d0a233; padding-bottom:1px; c
 .underline:hover {
   border-bottom: 3px solid #d0a233;
   padding-bottom:2px;
+  display: inline-block;
+  color: #d0a233;
 }
 
 /*<!-- welcome message -->*/
 .img-coffee-container {
-  margin-top: 12em;
-  margin-bottom: 2em;
+  margin: 12em 0 2em 0;
   height: 30em;
   width: auto;
 }
@@ -94,7 +95,33 @@ a.underlined-thin:hover {border-bottom: 1px solid #d0a233; padding-bottom:1px; c
   font-size: 2em;
 }
 
+.hello-1 {
+  /* font-family: 'Lobster', cursive; */
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.lobster {
+  font-family: 'Lobster', cursive;
+  font-size: 1.2em;
+}
+
 .welcome-text {
+    background-color: white;
+    position: absolute;
+    top: 1.5em;
+    left: 3em;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    line-height: 2.8em;
+    /* font-weight: 100; */
+    margin-top: 2em;
+    /*color: #5f6771;*/
+    /*font-family: 'Merriweather', serif;*/
+}
+
+.hello-text {
     background-color: white;
     position: absolute;
     top: 1.5em;
@@ -109,7 +136,8 @@ a.underlined-thin:hover {border-bottom: 1px solid #d0a233; padding-bottom:1px; c
 }
 
 .interested {
-  padding-top: 0.8em;
+  padding-top: 0.4em;
+  font-size: 1.2em;
 }
 
 .shadow {
