@@ -411,10 +411,6 @@ padding: 0.5em;
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (max-width: 480px) {
-  col-md-12 {
-    padding-right: 0;
-    padding-left: 0;
-  }
   .navbar-brand {
     display: none;
   }
@@ -538,15 +534,171 @@ padding: 0.5em;
 
   .name {
     padding-left: 0.5em;
-    /* font-size: 1.5em; */
+    /* font-size: 1.4em; */
   }
 
   .title {
-    /* font-size: 0.8em; */
+    /* font-size: 0.7em; */
   }
 
   .email {
-    /* font-size: 1em; */
+    /* font-size: 0.9em; */
+  }
+
+  .img-about-container-mobile {
+    margin: 2em 0 2em 0;
+    height: 10em;
+    width: auto;
+  }
+
+  .grey-background {
+    margin: 2em 0 30em 0;
+    padding: 10em 0 10em 0;
+
+  }
+
+  .footer {
+    margin: 0 auto;
+    padding-bottom: 1em;
+  }
+}
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<mobile for iPhone SE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (max-width: 320px) {
+  .navbar-brand {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: inline-block;
+    padding-top: 4em;
+  }
+
+  .img-coffee-container {
+    margin: 4em 0 0 0;
+  }
+
+  .shadow {
+    padding: 0;
+  }
+
+  .img-background {
+    display: none;
+  }
+
+  .img-background-mobile {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+
+  .welcome-text {
+    line-height: 2.5em;
+    top: 0;
+    left: 0;
+    padding: 0 1em 1em 1em;
+  }
+
+  .hello-text {
+      top: 17em;
+      left: 0;
+      text-align: left;
+      font-size: 1em;
+      letter-spacing: 0.05em;
+      line-height: 1.6em;
+      font-weight: 100;
+      text-align: center;
+      /* font-weight: 100; */
+  }
+
+  .br-mobile {
+    display: none;
+  }
+
+  .about-mobile {
+    padding-top: 1em;
+  }
+
+  .about {
+    margin: 0;
+    padding: 1em;
+  }
+
+  .portfolio {
+    margin: -4em 0 1em 1em;
+  }
+
+  .github-card {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    top: auto;
+    right: auto;
+  }
+
+  .mevulo-card {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    top: auto;
+    right: auto;
+    margin-top: 3em;
+  }
+  .contact-desktop {
+    display: none;
+  }
+
+  .contact-mobile {
+    display: inline-block;
+    margin-bottom: 4em;
+  }
+
+  .contact {
+    margin-bottom: 5em;
+  }
+
+  .business-card-mobile {
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    /*top: -26em;*/
+    /*top: 3.5em;
+    left: 5.5em;*/
+    width: 100%;
+    height: 20em;
+    text-align: left;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    line-height: 1.8em;
+    color: #d0a233;
+    font-family: 'Merriweather', serif;
+  }
+
+  .business-card-img-mobile {
+    width: 8em;
+    height: 100%;
+    object-fit: cover;
+    float: left;
+    padding-left: -15px;
+  }
+
+  .business-card-text {
+    padding: auto;
+  }
+
+  .name {
+    padding-left: 0.5em;
+    font-size: 1.4em;
+  }
+
+  .title {
+    font-size: 0.7em;
+  }
+
+  .email {
+    font-size: 0.9em;
   }
 
   .img-about-container-mobile {
