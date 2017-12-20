@@ -403,6 +403,10 @@ padding: 0.5em;
   display: none;
 }
 
+.img-background-mobile {
+  display: none;
+}
+
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -422,7 +426,7 @@ padding: 0.5em;
 
   .img-coffee-container {
     margin: 4em 0 0 0;
-    height: 25em;
+    height: 28em;
     width: auto;
   }
 
@@ -434,6 +438,12 @@ padding: 0.5em;
     display: none;
   }
 
+  .img-background-mobile {
+    display: inline;
+    width: 100%;
+    height: auto;
+  }
+
   .welcome-text {
       top: 0;
       left: 0;
@@ -441,12 +451,13 @@ padding: 0.5em;
   }
 
   .hello-text {
-      top: 8.5em;
+      top: 14em;
       left: 0;
       text-align: left;
-      /* font-size: 1.1em;
+      font-size: 1em;
       letter-spacing: 0.05em;
-      line-height: 1.8em; */
+      line-height: 1.6em;
+      font-weight: 100;
       /* font-weight: 100; */
   }
 
