@@ -1,5 +1,5 @@
 * {
-   /* border: 1px solid red !important; */
+   border: 1px solid red !important;
    color: #5f6771;
 }
 
@@ -136,12 +136,43 @@ h3 {
     top: 3.5em;
     left: 0.5em;
     text-align: left;
-    font-size: 1.2em;
-    letter-spacing: 0.05em;
+    font-size: 1.1em;
+    /* letter-spacing: 0.05em; */
     line-height: 1.8em;
     font-weight: 100;
     /* font-weight: 100; */
 }
+
+.hello-text1 {
+  background-color: white;
+  position: relative;
+  margin: 0 auto;
+  top: -28em;
+  /*top: 3.5em;
+  left: 5.5em;*/
+  width: 85%;
+  height: 25em;
+  text-align: left;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  line-height: 1.8em;
+  color: #d0a233;
+  font-family: 'Merriweather', serif;
+}
+
+.business-card-img1 {
+  width: 20em;
+  height: 100%;
+  object-fit: cover;
+  float: left;
+}
+
+.business-card-text1 {
+  padding-top: 2em;
+  line-height: 2em;
+  padding-left: 21em;
+}
+
 
 .interested {
   padding-top: 0.4em;
@@ -420,6 +451,14 @@ padding: 0.5em;
     padding-top: 4em;
   }
 
+  .nav-bar {
+    padding-top: 1em;
+  }
+
+  .navbar-nav .nav-link {
+    padding-left: 3em;
+  }
+
   .img-coffee-container {
     margin: 4em 0 0 0;
   }
@@ -434,6 +473,7 @@ padding: 0.5em;
 
   .img-background-mobile {
     display: inline-block;
+    object-fit: cover;
     width: 100%;
     height: auto;
   }
@@ -445,7 +485,7 @@ padding: 0.5em;
     padding: 0 1em 1em 1em;
   }
 
-  .hello-text {
+  .hello-text1 {
       top: 17em;
       left: 0;
       text-align: left;
@@ -577,6 +617,14 @@ padding: 0.5em;
     padding-top: 4em;
   }
 
+  .nav-bar {
+    padding-top: 1em;
+  }
+
+  .navbar-nav .nav-link {
+    padding-left: 3em;
+  }
+
   .img-coffee-container {
     margin: 4em 0 0 0;
   }
@@ -602,7 +650,7 @@ padding: 0.5em;
     padding: 0 1em 1em 1em;
   }
 
-  .hello-text {
+  .hello-text1 {
       top: 17em;
       left: 0;
       text-align: left;
