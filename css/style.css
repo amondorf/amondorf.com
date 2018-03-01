@@ -464,6 +464,7 @@ padding: 0.5em;
 
   .img-coffee-container {
     margin: 4em 0 0 0;
+    height: 25em;
   }
 
   .shadow {
@@ -497,6 +498,7 @@ padding: 0.5em;
       line-height: 1.6em;
       font-weight: 100;
       width: 100%;
+      height: 20em;
       text-align: center;
   }
 
@@ -628,6 +630,7 @@ padding: 0.5em;
 
   .img-coffee-container {
     margin: 4em 0 0 0;
+    height: 25em;
   }
 
   .shadow {
@@ -660,6 +663,8 @@ padding: 0.5em;
       line-height: 1.6em;
       font-weight: 100;
       text-align: center;
+      width: 100%;
+      height: 20em;
       /* font-weight: 100; */
   }
 
@@ -766,5 +771,47 @@ padding: 0.5em;
   .footer {
     margin: 0 auto;
     padding-bottom: 1em;
+  }
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<iPad>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .welcome-text {
+    left: 0em;
+  }
+
+  .business-card-img1 {
+    width: 30%;
+  }
+
+  .business-card-text1 {
+    padding-left: 11em;
+    text-align: center;
+  }
+
+  .github-card {
+    right: 0em;
+    width: 19em;
+  }
+
+  .mevulo-card {
+    left: 0em;
+    top: -8em;
+    width: 19em;
+  }
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<iPad horizontal>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (min-width: 1024px) and (max-width: 1100px) {
+  .welcome-text {
+    left: 0em;
+  }
+
+  .business-card-text1 {
+    padding-left: 13em;
+    margin: 1em;
+    text-align: center;
   }
 }
